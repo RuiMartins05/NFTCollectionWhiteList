@@ -6,11 +6,7 @@ This project must always use the testnet Sepolia network with fake funds. To get
 
 ## Setup
 ```bash
-npm init --yes
-npm install --save-dev hardhat @nomicfoundation/hardhat-toolbox
-npx hardhat
-npm install dotenv
-npm install @openzeppelin/contracts
+npm install
 ```
 
 Create a .env file to put the next environment variables
