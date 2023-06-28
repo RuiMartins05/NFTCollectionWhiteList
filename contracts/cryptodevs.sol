@@ -28,9 +28,11 @@ contract CryptoDevs is ERC721Enumerable, Ownable {
         //If it is so, check if the user already has an NFT, if not, give one to him
         //otherwise, check balance of the user and mint the nft to him
 
+        //basically if there is a maximum supply of 20 and 10 must be for whitelisted users, then the totalsupply must never
+        //go above 10
         require(totalSupply() + reservedTokens - reservedTokensMint < maxTokens, "max supply has been reached");
 
-        if (_whitelist._whitelist(msg.sender) == true) {
+        if (_whitelist._whitelist(msg.sender) && msg.value < NFTPrice) {
 
             require(balanceOf(msg.sender) == 0, "User already has a NFT");
             reservedTokensMint++;

@@ -730,11 +730,11 @@
 			]
 		},
 		"contracts/cryptodevs.sol": {
-			"keccak256": "0x7ece3252a67c1f86b5ee4edbdcd67ac7b177cc0245db213fac26f6833e09adc6",
+			"keccak256": "0x98a78322fc3142f96bc80a74027c15854617a9b1d2601001be96a808422566ea",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://51d92ffb916a945a48e8992374c2042c2f0369053a57ca630e9ac05c8e585866",
-				"dweb:/ipfs/QmQJXkgHXa3F3zNJA1y7ymzHzj5CtT4cWMKPsETgXst75G"
+				"bzz-raw://f5abfcf9e22ac4ceeb51cf58313c8b0769e1b70bd7265dd5bafbe6c8bd5a52c7",
+				"dweb:/ipfs/QmSB7DzoUbcLpm5EQoiwFDUFi21UysRTVqYwBGtDA7SGpC"
 			]
 		},
 		"contracts/whitelist.sol": {
