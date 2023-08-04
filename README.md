@@ -1,6 +1,6 @@
 # NFTCollectionWhiteList
 
-## Project Explained
+## Introduction
 This project consists of creating a limited NFT Collection (20 tokens max) which the first 10 people will get the NFT for free. These people are on the whitelist. After the whitelist is full, each person needs to pay 0.01 ethers for the NFT. 
 This project must always use the testnet Sepolia network with fake funds. To get these: https://sepoliafaucet.com/
 
@@ -10,7 +10,7 @@ npm install
 ```
 
 Create a .env file to put the next environment variables
-```
+```env
 PRIVATE_KEY="..."
 RPC_URL="..."
 ETHERSCAN_API_KEY="..."
@@ -26,7 +26,6 @@ npx hardhat run deploy.js --network sepolia
 ```
 This will verify the contract deployed and give you an URL to the ETHERSCAN where is possible to interact with the contract.
 Make sure to replace the address received on the crytodevs.sol file
-
 
 
 To deploy the CryptoDevs contract:
